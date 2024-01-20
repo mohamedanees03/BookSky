@@ -1,0 +1,153 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: blue;
+    padding: 5px;
+}
+.heading{
+    color: white;
+    margin-left: 10px;
+}
+.container{
+    padding: 10px;
+}
+.title{
+    color: blue;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+}
+.book-container{
+    background-color: black;
+    width: 25%;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.add-button{
+    background-color: blue;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: none;
+    font-size: 40px;
+    position: fixed;
+    border-radius: 100%;
+    bottom: 30px;
+    right: 30px;
+}
+.popup-overlay{
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+.popup-box{
+    z-index: 2;
+    position: absolute;
+    border-radius: 10px;
+    width: 40%;
+    left: 30%;
+    top: 20%;
+    background-color: black;
+    color: blue;
+    padding-top: 20px; 
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 45px; 
+    display: none;
+}
+.title-input-box{
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 20px;    
+    border-bottom: solid red 2px;
+}
+.author-input-box{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 20px;    
+    border-bottom: solid red 2px;
+}
+.short-input{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;    
+    border: solid red 2px;
+}
+.title-input-box::placeholder{
+    color: white;
+}
+.title-input-box{
+    outline: none;
+}
+.author-input-box::placeholder{
+    color: white;
+}
+.author-input-box{
+    outline: none;
+}
+.short-input::placeholder{
+    color: white;
+}
+.short-input{
+    outline: none;
+}
+.button{
+    font-size: 25px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.plus-button{
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.cancel-button{
+    font-size: 20px;
+    color: white ;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="/Booksky/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="heading">Booksky</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h1 class="title">Java</h1>
+            <h5 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">James Gosling</h5>
+            <p>Java is a widely-used programming language for coding web applications. It has been a popular choice among developers for over two decades, with millions of Java applications in use today. Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself.</p>
+            <button class="btn" onclick="deletePopup(event)">Delete</button>
+        </div>
+        <button class="add-button">+</button>
+    </div>
+    <div class="popup-overlay"></div>
+        <div class="popup-box">
+            <h1>Add Book</h1>
+            <form>
+                <input type="text" class="title-input-box" placeholder="Title of the book">
+                <input type="text" class="author-input-box" placeholder="Author name">
+                <textarea class="short-input" placeholder="Short Discription"></textarea>
+                <button class="plus-button">Add</button>
+                <button class="cancel-button">Cancel</button>
+            </form>
+        </div>
+</body>
+<script src="/Booksky/script.js">
+</script>
+</html>
